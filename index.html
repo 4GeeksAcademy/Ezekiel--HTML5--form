@@ -8,18 +8,18 @@
             <form class="container border border-primary d-block">
                 <div class="card">
             <h1>Payment form Example</h1>
-                </div>
+            <div id="zick" class="alert alert-danger"> Some fields are missing </div>
             <div class="row">
                 <div class="col-4">
                     <label for="Card#" class="form-label">Card#</label>
-                    <input type="number" class="form-control" placeholder="xxxxxxxxxxxxxx"/>
+                    <input type="number" class="form-control" placeholder="xxxxxxxxxxxxxxin"/>
                 </div>
                 <div class="col-4">
                     <label for="CVC#" class="form-label">CVC#</label>
-                    <input type="number" class="form-control"/>
+                    <input type="number" class="form-control" placeholder="xxxx"/>
                 </div>
                 <div class="col-4">
-                    <label for="Amount" class="form-label">Amout</label>
+                    <label for="Amount" class="form-label">Amount</label>
                     <input type="number" class="form-control"/>
                 </div>
                 <div class="col-6">
@@ -36,7 +36,7 @@
                 </div>
                 <div class="col-4">
                     <label for="state" class="form-label">state</label>
-                    <input type="number" class="form-control"/>
+                    <input type="number" class="form-control" placeholder="pick state"/>
                 </div>
                 <div class="col-4">
                     <label for="Postal code" class="form-label">Postal Code</label>
@@ -65,8 +65,8 @@
             <script src="https://kit.fontawesome.com/bc80354a71.js" crossorigin="anonymous"></script>
             <div>
                 <div class="d-flex flex-row-reverse">
-            <button type ="button">Submit</button>
-            <button type="button"> Cancel</button>
+            <button type ="button" class="btn btn-outline-primary">Submit</button>
+            <button type="button" class="btn btn-outline-secondary"> Cancel</button>
                 </div>
             </div>
             </form>
